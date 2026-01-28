@@ -1,6 +1,9 @@
 convert = int(input("type 1 to convert from decimal to hexadecimal or 2 to convert from hexadecimal to decimal: "))
 conversionKey = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
 
+# input: ask for decimals, hexadecimals, binary
+# output: ask for decimals, hexadecimals, binary
+
 if (convert == 1): # decimal to hexadecimal
     hexResult = ''
     dec = int(input("enter decimal number: "))
@@ -26,3 +29,4 @@ elif (convert == 2):
     
 else:
     print("invalid input")
+
